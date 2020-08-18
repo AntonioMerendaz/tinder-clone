@@ -7,29 +7,25 @@ import "./TinderCards.css";
 function TinderCards() {
   const [people, setPeople] = useState([]);
 
-  // Piece of code which runs based on a condition
-  // useEffect(() => {
-  // This is where the code runs...
-
-  // Everytime the collection changes, give the content of the documents inside snapshot
-  //   database
-  //     .collection("people")
-  //     .onSnapshot(snapshot =>
-  //       (setPeople(snapshot.docs.map(doc => doc.data()))
-  //     );
-  // }, []);
-
+  //Piece of code which runs based on a condition
+  //This is where the code runs...
   useEffect(() => {
-    database
+    //Everytime the collection changes, give the content of the documents inside snapshot
+
+    const unsubscribe = database
       .collection("people")
       .onSnapshot((snapshot) =>
         setPeople(snapshot.docs.map((doc) => doc.data()))
       );
+
+    return () => {
+      //This is the cleanup
+      unsubscribe();
+    };
   }, []);
 
   return (
     <div>
-      <h1>Tinder Cards</h1>
       <div className="tinderCards__cardContainer">
         {people.map((person) => (
           <TinderCard
