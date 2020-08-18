@@ -1,19 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
+import database from "./firebase";
 import "./TinderCards.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function TinderCards() {
-  const [people, setPeople] = useState([
-    {
-      name: "steve jobs",
-      url: `https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2014/03/topic_steve_jobs.png?itok=X2pO1JND`,
-    },
-    {
-      name: "mark zuckerberg",
-      url: `https://pyxis.nymag.com/v1/imgs/754/a57/171e19dcd8d5703c85ba5d4acf2c28fa62-15-mark-zuckerberg.rsquare.w700.jpg`,
-    },
-  ]);
+  const [people, setPeople] = useState([]);
+
+  // Piece of code which runs based on a condition
+  // useEffect(() => {
+  // This is where the code runs...
+
+  // Everytime the collection changes, give the content of the documents inside snapshot
+  //   database
+  //     .collection("people")
+  //     .onSnapshot(snapshot =>
+  //       (setPeople(snapshot.docs.map(doc => doc.data()))
+  //     );
+  // }, []);
+
+  useEffect(() => {
+    database
+      .collection("people")
+      .onSnapshot((snapshot) =>
+        setPeople(snapshot.docs.map((doc) => doc.data()))
+      );
+  }, []);
+
   return (
     <div>
       <h1>Tinder Cards</h1>
