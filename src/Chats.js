@@ -8,7 +8,7 @@ function Chats() {
             name="Annie"
             message="Hey! how are you 😀"
             timestamp="35 minutes ago"
-            profilePic="https://img.discogs.com/TNhRCkA0KBWRaL1FgvyjXvPiRyI=/600x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-23825-1494576480-7697.jpeg.jpg"
+            profilePic="https://i.pinimg.com/736x/f6/32/36/f6323640b884465eb63683fb592d6d2a.jpg"
         />
         <Chat
             name="Stevie"
@@ -20,7 +20,7 @@ function Chats() {
             name="Paul"
             message="Hello, bloke"
             timestamp="40 seconds ago"
-            profilePic="https://vignette.wikia.nocookie.net/beatles/images/d/d9/853de2b8224c681079a3a66111bd97ec.jpg/revision/latest?cb=20180526144242"
+            profilePic="https://vignette.wikia.nocookie.net/beatles/images/d/d9/853de2b8224c681079a3a66111bd97ec.jpg"
         />
         <Chat
             name="Miles"
