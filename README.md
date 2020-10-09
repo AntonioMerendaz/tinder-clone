@@ -8,11 +8,11 @@ To begin with, a database on Firebase will be used, because of the ease of use. 
 
 ### Demos:
 
-- The Cards
+- Swiping cards
 
 ![App](Demos/tinderDemo.gif)
 
-- The Chat
+- Chating
 
 ![Chat](Demos/Chat.gif)
 
