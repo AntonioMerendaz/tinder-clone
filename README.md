@@ -17,7 +17,7 @@ To begin with, a database on Firebase will be used, because of the ease of use. 
 
 3. A body with a stack of cards, with the functionality of swipe right or left;
 
-![Cards](Pictures/Cards.jpg)
+![Cards](Pictures/CardsLeft.jpg)       ![Cards](Pictures/Cards.jpg)
 
 4. A footer with five round buttons;
 
