@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the project
 
-## Available Scripts
+This is an experimental project, to learn React JS.
 
-In the project directory, you can run:
+Using [Create React App](https://github.com/facebook/create-react-app), I'll try to "clone" the original tinder app, with all the screens and functionalities.
 
-### `npm start`
+To begin with, a database on Firebase will be used, because of the ease of use. Further, for learning purposes, I'll try different approaches for backend, like SQL and NOSQL databases (like MongoDB).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Done: 
+1. Created a database in Firebase and connected to the app, with the names and images to be shown on the cards;
 
-### `npm test`
+2. A ***Header/NavBar*** with three icons;
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. A body with a stack of cards, with the functionality of swipe right or left;
 
-### `npm run build`
+4. A footer with five round buttons;
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. A page with all the chats and;
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+6. Another page for each chat, with some functionalities.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### To be done:
+1. Create the other functionalities/screens of the app;
 
-### `npm run eject`
+2. Put each and every one button to work properly;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Authentication for the users in Firebase;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Adjust the database to contain all the data for each user, including his name, picture, name of other users chosen(or not) by him and the chat content;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Think of another type of database, if necessary, to keep all this data;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Improve the responsivenes of the app;
 
-## Learn More
+### Obs:
+The app can be seen [here](https://tinder-clone-c1a91.web.app)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
