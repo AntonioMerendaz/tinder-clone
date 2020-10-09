@@ -1,4 +1,4 @@
-<img src="https://github.com/Pictures/App.jpg/>
+![App](Pictures/App.jpg)
 
 ## About the project
 
@@ -8,7 +8,7 @@ Using [Create React App](https://github.com/facebook/create-react-app), I'll try
 
 To begin with, a database on Firebase will be used, because of the ease of use. Further, for learning purposes, I'll try different approaches for backend, like SQL and NOSQL databases (like MongoDB).
 
-![App](Demos/tinderDemo.gif.gif)
+![App](Demos/tinderDemo.gif)
 
 ### Done: 
 1. Created a database in Firebase and connected to the app, with the names and images to be shown on the cards;
