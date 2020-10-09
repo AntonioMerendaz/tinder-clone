@@ -6,10 +6,16 @@ Using [Create React App](https://github.com/facebook/create-react-app), I'll try
 
 To begin with, a database on Firebase will be used, because of the ease of use. Further, for learning purposes, I'll try different approaches for backend, like SQL and NOSQL databases (like MongoDB).
 
-![App](Pictures/App.jpg)
+### Demos:
+![App](Demos/tinderDemo.gif)
+
+
+![Chat](Demos/Chat.gif)
 
 ### Done: 
 1. Created a database in Firebase and connected to the app, with the names and images to be shown on the cards;
+
+![App](Pictures/App.jpg)
 
 2. A ***Header/NavBar*** with three icons;
 
@@ -29,7 +35,12 @@ To begin with, a database on Firebase will be used, because of the ease of use. 
 
 5. A page with all the chats and;
 
+![Chats](Pictures/Chats.jpg)
+
 6. Another page for each chat, with some functionalities.
+
+![Chat](Pictures/Chat.jpg)
+
 
 ### To be done:
 1. Create the other functionalities/screens of the app;
@@ -44,8 +55,6 @@ To begin with, a database on Firebase will be used, because of the ease of use. 
 
 5. Improve the responsivenes of the app;
 
-### Demo:
-![App](Demos/tinderDemo.gif)
 
 ### Obs:
 The app can be seen [here](https://tinder-clone-c1a91.web.app)
