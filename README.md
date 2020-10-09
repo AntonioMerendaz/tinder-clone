@@ -7,9 +7,10 @@ Using [Create React App](https://github.com/facebook/create-react-app), I'll try
 To begin with, a database on Firebase will be used, because of the ease of use. Further, for learning purposes, I'll try different approaches for backend, like SQL and NOSQL databases (like MongoDB).
 
 ### Demos:
+- The Cards
 ![App](Demos/tinderDemo.gif)
 
-
+- The Chat
 ![Chat](Demos/Chat.gif)
 
 ### Done: 
